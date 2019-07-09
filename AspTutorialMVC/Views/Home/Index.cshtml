@@ -1,0 +1,32 @@
+﻿
+@model AspTutorialMVC.Models.Order
+<table border="1">
+    <tr>
+        <th>Product Name:</th>
+        <th>Price:</th>
+    </tr>
+
+    @foreach (var Product in Model.Products)
+    {
+        <tr>
+            <td>@Product.Name</td>
+            <td>@Product.Price</td>
+        </tr>
+    }
+    <tr>
+        <td><b>Total:</b></td>
+        <td><b>@Model.Total</b></td>
+    </tr>
+    <tr>
+        <td><b>Discount:</b></td>
+        <td><b>@Model.Discount</b></td>
+    </tr>
+    <tr>
+        <td><b>Total with discount:</b></td>
+        <td><b>@(Model.Total - Model.Discount)</b></td>
+    </tr>
+</table>
+
+
+
+

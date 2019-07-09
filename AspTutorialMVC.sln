@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspTutorialMVC", "AspTutorialMVC\AspTutorialMVC.csproj", "{0BF59CA2-4E33-4536-B0BD-479AFFEC84C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BF59CA2-4E33-4536-B0BD-479AFFEC84C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF59CA2-4E33-4536-B0BD-479AFFEC84C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF59CA2-4E33-4536-B0BD-479AFFEC84C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF59CA2-4E33-4536-B0BD-479AFFEC84C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {108064F6-0EB2-48F1-9766-2DE60EB92BD7}
+	EndGlobalSection
+EndGlobal

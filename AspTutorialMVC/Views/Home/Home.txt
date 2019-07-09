@@ -1,0 +1,1 @@
+﻿Home folder contains all of the Views of your HomeController
